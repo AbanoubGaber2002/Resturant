@@ -12,7 +12,7 @@ function test_input($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
-$email_login = "";
+$email_login = ""
 $password_login = "";
 if(isset($_POST['submit_login'])){
     $error_Data_login = "";
